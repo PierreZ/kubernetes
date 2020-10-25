@@ -5,6 +5,7 @@ module k8s.io/apiserver
 go 1.15
 
 require (
+	github.com/apple/foundationdb/bindings/go v0.0.0-20200925001227-d927e33ff6dc
 	github.com/coreos/go-oidc v2.1.0+incompatible
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e

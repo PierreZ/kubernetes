@@ -14,11 +14,13 @@ require (
 	github.com/Azure/go-autorest/autorest v0.11.1
 	github.com/Azure/go-autorest/autorest/adal v0.9.0
 	github.com/Azure/go-autorest/autorest/to v0.2.0
+	github.com/Azure/go-autorest/autorest/validation v0.1.0 // indirect
 	github.com/GoogleCloudPlatform/k8s-cloud-provider v0.0.0-20200415212048-7901bc822317
 	github.com/JeffAshton/win_pdh v0.0.0-20161109143554-76bb4ee9f0ab
 	github.com/Microsoft/go-winio v0.4.15-0.20190919025122-fc70bd9a86b5
 	github.com/Microsoft/hcsshim v0.8.10-0.20200715222032-5eafd1556990
 	github.com/PuerkitoBio/purell v1.1.1
+	github.com/apple/foundationdb/bindings/go v0.0.0-20200925001227-d927e33ff6dc // indirect
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e
 	github.com/auth0/go-jwt-middleware v0.0.0-20170425171159-5493cabe49f7 // indirect
 	github.com/aws/aws-sdk-go v1.28.2
@@ -31,10 +33,12 @@ require (
 	github.com/containernetworking/cni v0.8.0
 	github.com/coredns/corefile-migration v1.0.10
 	github.com/coreos/go-oidc v2.1.0+incompatible
+	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f
 	github.com/cpuguy83/go-md2man/v2 v2.0.0
 	github.com/davecgh/go-spew v1.1.1
+	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v1.4.2-0.20200309214505-aa6a9891b09c
 	github.com/docker/go-connections v0.4.0
@@ -57,6 +61,7 @@ require (
 	github.com/google/gofuzz v1.1.0
 	github.com/google/uuid v1.1.1
 	github.com/googleapis/gnostic v0.4.1
+	github.com/gophercloud/gophercloud v0.1.0 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.1
 	github.com/heketi/heketi v9.0.1-0.20190917153846-c2e2a4ab7ab9+incompatible
@@ -80,11 +85,14 @@ require (
 	github.com/opencontainers/selinux v1.5.2
 	github.com/pkg/errors v0.9.1
 	github.com/pmezard/go-difflib v1.0.0
+	github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021 // indirect
 	github.com/prometheus/client_golang v1.7.1
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.10.0
 	github.com/quobyte/api v0.1.2
 	github.com/robfig/cron v1.1.0
+	github.com/rubiojr/go-vhd v0.0.0-20200706105327-02e210299021 // indirect
+	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/spf13/afero v1.2.2
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
@@ -96,6 +104,7 @@ require (
 	github.com/urfave/negroni v1.0.0 // indirect
 	github.com/vishvananda/netlink v1.1.0
 	github.com/vmware/govmomi v0.20.3
+	go.etcd.io/bbolt v1.3.5 // indirect
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200910180754-dd1b699fc489
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
@@ -109,9 +118,10 @@ require (
 	google.golang.org/grpc v1.27.0
 	gopkg.in/gcfg.v1 v1.2.0
 	gopkg.in/square/go-jose.v2 v2.2.2
+	gopkg.in/warnings.v0 v0.1.1 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 	k8s.io/api v0.0.0
-	k8s.io/apiextensions-apiserver v0.0.0
+	k8s.io/apiextensions-apiserver v0.0.0-00010101000000-000000000000
 	k8s.io/apimachinery v0.0.0
 	k8s.io/apiserver v0.0.0
 	k8s.io/cli-runtime v0.0.0
@@ -120,25 +130,26 @@ require (
 	k8s.io/cluster-bootstrap v0.0.0
 	k8s.io/code-generator v0.0.0
 	k8s.io/component-base v0.0.0
-	k8s.io/controller-manager v0.0.0
+	k8s.io/controller-manager v0.0.0-00010101000000-000000000000
 	k8s.io/cri-api v0.0.0
 	k8s.io/csi-translation-lib v0.0.0
 	k8s.io/gengo v0.0.0-20200428234225-8167cfdcfc14
 	k8s.io/heapster v1.2.0-beta.1
 	k8s.io/klog/v2 v2.2.0
-	k8s.io/kube-aggregator v0.0.0
+	k8s.io/kube-aggregator v0.0.0-00010101000000-000000000000
 	k8s.io/kube-controller-manager v0.0.0
 	k8s.io/kube-openapi v0.0.0-20200923155610-8b5066479488
 	k8s.io/kube-proxy v0.0.0
 	k8s.io/kube-scheduler v0.0.0
 	k8s.io/kubectl v0.0.0
 	k8s.io/kubelet v0.0.0
-	k8s.io/legacy-cloud-providers v0.0.0
+	k8s.io/legacy-cloud-providers v0.0.0-00010101000000-000000000000
 	k8s.io/metrics v0.0.0
 	k8s.io/mount-utils v0.0.0
-	k8s.io/sample-apiserver v0.0.0
+	k8s.io/sample-apiserver v0.0.0-00010101000000-000000000000
 	k8s.io/system-validators v1.2.0
 	k8s.io/utils v0.0.0-20200729134348-d5654de09c73
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.12 // indirect
 	sigs.k8s.io/yaml v1.2.0
 )
 

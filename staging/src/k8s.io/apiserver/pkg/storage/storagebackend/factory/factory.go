@@ -34,6 +34,8 @@ func Create(c storagebackend.Config, newFunc func() runtime.Object) (storage.Int
 		return nil, nil, fmt.Errorf("%v is no longer a supported storage backend", c.Type)
 	case storagebackend.StorageTypeUnset, storagebackend.StorageTypeETCD3:
 		return newETCD3Storage(c, newFunc)
+	case "fdb":
+		return newFDBStorage(c, newFunc)
 	default:
 		return nil, nil, fmt.Errorf("unknown storage type: %s", c.Type)
 	}
